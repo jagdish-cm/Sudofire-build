@@ -46,14 +46,10 @@ import { MatTreeModule } from '@angular/material/tree';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ParentComponent } from './parent/parent.component';
-import { ChildComponent } from './parent/child/child.component';
 import { FormsModule } from '@angular/forms';
-import { Sib1Component } from './sib1/sib1.component';
-import { Sib2Component } from './sib2/sib2.component';
 
 @NgModule({
-  declarations: [AppComponent, ParentComponent, ChildComponent, Sib1Component, Sib2Component],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
